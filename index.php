@@ -99,7 +99,7 @@
           <div class="input-container">
             <input
               type="tel"
-              name="telephone"
+              name="phone"
               placeholder="Número de telefono" />
             <i class="fa-solid fa-phone"></i>
           </div>
@@ -124,7 +124,7 @@
         <div class="link">
           <ul>
             <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nostros</a></li>
+            <li><a href="#">Nosotros</a></li>
             <li><a href="#">Servicios</a></li>
             <li><a href="#">Contacto</a></li>
           </ul>
