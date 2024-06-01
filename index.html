@@ -72,13 +72,19 @@
     </section>
     <main class="servicios">
       <h2>Servicios</h2>
-      <div>
-        <i class="fa-regular fa-calendar-days"></i>
-        <h3>Reservaciones</h3>
-      </div>
-      <div>
-        <i class="fa-solid fa-utensils"></i>
-        <h3>Menú</h3>
+      <div class="servicios-content container">
+        <div class="servicio-1">
+          <i class="fa-regular fa-calendar-days"></i>
+          <h3>Reservaciones</h3>
+        </div>
+        <div class="servicio-1">
+          <i class="fa-solid fa-message"></i>
+          <h3>Comentarios</h3>
+        </div>
+        <div class="servicio-1">
+          <i class="fa-solid fa-utensils"></i>
+          <h3>Nuestro Menú</h3>
+        </div>
       </div>
     </main>
 
@@ -88,15 +94,18 @@
         <div class="input-group">
           <div class="input-container">
             <input type="text" name="name" placeholder="Nombre y apellido" />
+            <i class="fa-solid fa-user"></i>
           </div>
           <div class="input-container">
             <input
               type="tel"
               name="telephone"
               placeholder="Número de telefono" />
+            <i class="fa-solid fa-phone"></i>
           </div>
           <div class="input-container">
             <input type="email" name="email" placeholder="Correo electronico" />
+            <i class="fa-solid fa-envelope"></i>
           </div>
           <div>
             <textarea name="message" placeholder="Detalles"></textarea>
