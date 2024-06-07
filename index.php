@@ -23,11 +23,9 @@
         </label>
         <nav class="navbar">
           <ul>
-            <li><a href="#">prueba</a></li>
-            <li><a href="#">prueba</a></li>
-            <li><a href="#">prueba</a></li>
-            <li><a href="#">prueba</a></li>
-            <li><a href="#">prueba</a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#appointments">Reserva</a></li>
           </ul>
         </nav>
       </div>
@@ -54,7 +52,7 @@
         <img src="images/lasgna.jpg" alt="imagen de about" />
       </div>
       <div class="about-txt">
-        <h2>Nosotros</h2>
+        <h2  id="about">Nosotros</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quis
           molestias aperiam omnis aliquid, nihil corrupti nam incidunt
@@ -71,7 +69,7 @@
       </div>
     </section>
     <main class="servicios">
-      <h2>Servicios</h2>
+      <h2 id="services">Servicios</h2>
       <div class="servicios-content container">
         <div class="servicio-1">
           <i class="fa-regular fa-calendar-days"></i>
@@ -90,7 +88,7 @@
 
     <section class="formulario container">
       <form method="post" autocomplete="off">
-        <h2>Agendar una reservación</h2>
+        <h2 id="appointments">Agendar una reservación</h2>
         <div class="input-group">
           <div class="input-container">
             <input type="text" name="name" placeholder="Nombre y apellido" />

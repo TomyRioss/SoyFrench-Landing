@@ -1,6 +1,7 @@
 <?php 
 
-include("conexion.php");
+mysqli_query($conex, $consulta)
+
 
 if(isset($_POST ['send'])){
   if (
